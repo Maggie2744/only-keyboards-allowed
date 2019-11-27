@@ -9,6 +9,7 @@ html {
 
 .skip-links a:focus {
   top: 0;
+  outline: 3px solid #fff;
 }
 
 .section-dark {
