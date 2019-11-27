@@ -12,20 +12,20 @@
 </head>
 <body>
 
-  <div class="skip-links">
-    <a href="#banner">Jump to the banner</a>
-    <a href="#nav">Jump to navigation</a>
-    <a href="#main">Jump to main content</a>
-    <a href="#contentinfo">Jump to the footer</a>
-  </div>
+  <ul class="skip-links">
+    <li><a class="skip-links" href="#banner">Jump to the banner</a></li>
+    <li><a class="skip-links" href="#nav">Jump to navigation</a></li>
+    <li><a class="skip-links" href="#main">Jump to main content</a></li>
+    <li><a class="skip-links" href="#contentinfo">Jump to the footer</a></li>
+  </ul>
 
-  <header class="masthead section-dark section-bg embed embed-16by9" id="galaxies" role="banner" id="banner" tabindex="0">
+  <header class="masthead section-dark section-bg embed embed-16by9" id="banner" role="banner" tabindex="0">
     <div class="absolute w-1 pin-tl text-center pad-t pad-b gutter-1-2">
       <div class="grid grid-middle">
         <div class="unit [ xs-1 l-1-2 ]">
           <h1 class="masthead-title push-1-2" data-shadow="The Search for Hidden&nbsp;Galaxies">The Search for Hidden&nbsp;Galaxies</h1>
         </div>
-        <nav class="nav unit [ xs-1 l-1-2 ]" role="nav" id="nav" tabindex="1">
+        <nav class="nav unit [ xs-1 l-1-2 ]" role="navigation" id="nav" tabindex="0">
           <ul class="list-group-inline push-1-2">
             <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#galaxies">Galaxies</a></li>
             <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#techniques">Techniques</a></li>
@@ -36,7 +36,7 @@
     </div>
   </header>
 
-  <main role="main" id="main" tabindex="2">
+  <main role="main" id="main" tabindex="0">
 
     <section class="techniques section-light section-bg embed embed-16by9" id="techniques">
       <div class="absolute pin-c text-center island-1-2 w-1 max-length">
@@ -56,7 +56,7 @@
 
   </main>
 
-  <footer class="section-dark text-center pad-t pad-b gutter-1-2" role="contentinfo" id="contentinfo" tabindex="3">
+  <footer class="section-dark text-center pad-t pad-b gutter-1-2" role="contentinfo" id="contentinfo" tabindex="0">
     <small>© The Search for Hidden Galaxies</small>
   </footer>
 
