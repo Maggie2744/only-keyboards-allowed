@@ -25,6 +25,10 @@ nav ul li a:hover {
   outline: 3px solid #fff;
 }
 
+a:focus {
+  outline: 3px solid white;
+}
+
 .section-dark {
   background-color: #000308;
   color: #fff;
